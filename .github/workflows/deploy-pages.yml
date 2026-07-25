@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-custom-deploy
   cancel-in-progress: true
 
 jobs:
