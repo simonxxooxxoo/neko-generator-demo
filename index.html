@@ -7,8 +7,20 @@
   <meta name="apple-mobile-web-app-title" content="neko Generator" />
   <meta property="og:title" content="neko Generator" />
   <title>neko Generator</title>
-  <script type="module" crossorigin src="./assets/index-BnlQXn9K.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Z5wQbK8B.css">
+  <link
+    rel="preload"
+    href="./assets/cat-can-transparent-Bi4J5mfn.png"
+    as="image"
+    fetchpriority="high"
+  />
+  <link
+    rel="preload"
+    href="./assets/fish-qPl93lpU.png"
+    as="image"
+    fetchpriority="high"
+  />
+  <script type="module" crossorigin src="./assets/index-BRYMQUuC.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-COhylXGm.css">
 </head>
 <body>
   <div
@@ -23,8 +35,12 @@
         <span class="initial-loader__glow"></span>
         <img
           class="initial-loader__cat"
-          src="./assets/cat-can-transparent-BvJ94ncb.png"
+          src="./assets/cat-can-transparent-Bi4J5mfn.png"
           alt=""
+          width="400"
+          height="449"
+          decoding="async"
+          fetchpriority="high"
           draggable="false"
         />
       </div>
@@ -34,8 +50,12 @@
           <span class="initial-loader__fish-runner">
             <img
               class="initial-loader__fish"
-              src="./assets/fish-C55FrPBn.png"
+              src="./assets/fish-qPl93lpU.png"
               alt=""
+              width="280"
+              height="164"
+              decoding="async"
+              fetchpriority="high"
               draggable="false"
             />
           </span>
@@ -139,18 +159,6 @@
       <div id="viewport-hint">拖拽旋转 · 滚轮缩放 · 右键平移</div>
     </main>
     <aside id="panel" class="mobile-panel-collapsed">
-      <header class="panel-header">
-        <img
-          class="panel-brand-logo"
-          src="./assets/neko-generator-logo-alt-Dx5IKaNa.png"
-          alt="猫猫工坊 · Neko Generator · made by Hyacinth & Simon"
-          role="button"
-          tabindex="0"
-          aria-label="切换标题备选"
-          title="点击切换标题备选"
-          draggable="false"
-        />
-      </header>
       <div class="mobile-panel-toolbar">
         <button
           id="mobile-panel-toggle"
@@ -175,6 +183,18 @@
       <div id="controls"></div>
       <footer class="panel-footer">
         <span id="seed-label"></span>
+        <div class="panel-brand-footer">
+          <img
+            class="panel-footer-logo"
+            src="./assets/neko-generator-logo-alt-D_YGguzP.png"
+            alt="猫猫工坊 · Neko Generator · made by Hyacinth & Simon"
+            width="600"
+            height="400"
+            loading="lazy"
+            decoding="async"
+            draggable="false"
+          />
+        </div>
       </footer>
     </aside>
   </div>
